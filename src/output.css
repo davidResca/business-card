@@ -591,8 +591,8 @@ video {
   width: 40%;
 }
 
-.w-\[400px\]{
-  width: 400px;
+.w-screen{
+  width: 100vw;
 }
 
 .flex-col{
@@ -692,6 +692,11 @@ video {
   padding-right: 1rem;
 }
 
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -700,10 +705,6 @@ video {
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.pt-6{
-  padding-top: 1.5rem;
 }
 
 .pt-4{
