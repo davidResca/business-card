@@ -4,9 +4,26 @@
     "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify"
   },
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.13"
+    "@tailwindcss/cli": "^4.1.13",
+    "nodemailer": "^7.0.6"
   },
   "devDependencies": {
     "tailwindcss": "^4.1.13"
-  }
+  },
+  "name": "business-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidResca/business-card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/davidResca/business-card/issues"
+  },
+  "homepage": "https://github.com/davidResca/business-card#readme"
 }

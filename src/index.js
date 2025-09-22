@@ -24,3 +24,18 @@ document.addEventListener('click', (e) => {
     navMenu.classList.add('nav-closed');
   }
 });
+
+
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm('service_7na1op7', 'template_79j5pgk', this)
+        .then(() => {
+            document.getElementById('status').innerText = "Correo enviado ✅";
+            this.reset();
+        }, (error) => {
+            document.getElementById('status').innerText = "Error al enviar ❌";
+            console.error(error);
+        });
+});
