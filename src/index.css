@@ -163,6 +163,7 @@
 
 
 .p-item {
+    min-height: 350px;
     transition: all ease-in-out .2s;
 }
 .p-item :hover{
